@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>Add Employee</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css-files/employee.css">
+  </head>
+  <body>
+    <div>
+      <form method="post" action="insertEmployee.php">
+        <div>
+          <input type="text" placeholder="first_name" name="firstName" autocomplete="off">
+        </div>
+
+        <div>
+          <input type="text" placeholder="last_name" name="lastName" autocomplete="off">
+        </div>
+
+        <div>
+          <input type="text" placeholder="Email Address" name="emailAddress" autocomplete="off">
+        </div>
+
+        <div>
+          <select name=storeId>
+            <option>1</option>
+            <option>2</option>
+          </select>
+        </div>
+
+        <div>
+          <input type="text" placeholder="address" name="address" autocomplete="off">
+        </div>
+
+        <div>
+          <input type="text" placeholder="cityId" name="cityId" autocomplete="off">
+        </div>
+
+        <div>
+          <input type="text" placeholder="district" name="district" autocomplete="off">
+        </div>
+
+        <div>
+          <input type="text" placeholder="postal_code" name="postaCode" autocomplete="off">
+        </div>
+
+        <div>
+          <input type="text" placeholder="phone" name="phone" autocomplete="off">
+        </div>
+
+        <div>
+          <input type="submit" value="save">
+        </div>
+      </form>
+      <form action="manager.html">
+        <input type="submit" value="cancel">
+      </form>
+    </div>
+  </body>
+</html>
